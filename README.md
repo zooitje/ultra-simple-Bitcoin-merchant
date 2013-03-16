@@ -33,7 +33,7 @@ setup
 
 customize
 - you can just place a link on your website to offer Bitcoin payments. here's an example of 0.5 USD or EUR you can copy paste to your website: 
-< a href=payment.php?orderid=donation&ordertotal=0.5>donate BTC< /a>
+<a href=payment.php?orderid=donation&ordertotal=0.5>donate BTC</a>
 - you can change the currency from USD to EUR
 - you can set the language
 
@@ -41,5 +41,5 @@ donations
 - feel free to donate BTC: 15MjKbreRqiFGbf8Drh7xdPkrV3LMgi1Nw
 
 disclaimer
-- this software is made by a lazy programmer and therefore not robust and not tested except that payments arrive at mt gox if all is well
+- this software is not fully tested except that payments arrive at mt gox if all is well ;-)
 - use it at your own risk

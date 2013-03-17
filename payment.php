@@ -3,14 +3,17 @@
 Copyright (c) 2013
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 */
+session_start();
 
+//vars of the order (use these in stead of the post/get if you plan on selling downloadable content)
 //$orderid = "testorder";
 //$ordertotal = 0.5;//euro or usd
 
 include("lib/config.php");
 include("lib/Gox.class.php");
 $gox = new Gox($apikey, $secret, $currency);
-echo "<center>";
+
+//unused functions examples
 //print_r($gox->getDepth());
 //print_r($gox->getInfo());
 
@@ -20,6 +23,7 @@ $btcprice = $ticker['return']['last_all']['value'];
 $ordertotalbtc = round($ordertotal/$btcprice,8);
 	
 //show order
+echo "<center>";
 echo $lang_orderid . $orderid;
 echo "<br>" . $lang_total . $ordertotal ." " . $currency;
 echo "<hr>" . $lang_currentprice. round($btcprice,2) ." " .$currency;
@@ -34,6 +38,10 @@ echo $lang_send . $ordertotalbtc . " BTC " . $lang_to . "<br>";
 echo "<img src='qr.php?addr=".$addr."&amount=".$ordertotalbtc."&orderid=".$orderid."' width=264 height=264>";
 echo "<hr>";
 echo "<a href='bitcoin:".$addr."?amount=".$ordertotalbtc."&label=".$orderid."' title='".$lang_linktowallet."'>".$addr."</a>";
+
+//save vars for later checks
+$_SESSION['ordertotalbtc'] = $ordertotalbtc;
+$_SESSION['addr'] = $addr;
 ?>
 <script language="Javascript">
 function xmlhttpPost(strURL) {

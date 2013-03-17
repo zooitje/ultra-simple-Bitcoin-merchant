@@ -16,9 +16,7 @@ $lang_ordertotal = "total: ";
 $lang_send = "transf&eacute;rer ";
 $lang_to = "au:";
 $lang_linktowallet = "payez avec votre porte-monnaie Bitcoin sur votre appareil"; 
-$lang_help = "scannez le QRcode avec votre porte-monnaie mobile, ou<br>
-cliquez sur l'adresse pour le porte-monnaie de votre appareil, ou<br>
-copier l'adresse de votre portefeuille en ligne";
+$lang_help = "scannez le QRcode avec votre porte-monnaie mobile, ou<br>cliquez sur l'adresse pour le porte-monnaie de votre appareil, ou<br>copier l'adresse de votre portefeuille en ligne";
 $lang_paymentfinished = "paiement pr&ecirc;t - cliquer pour continuer";
 
 //paymentcheck.php
@@ -30,4 +28,8 @@ $lang_wait = "paiement est trait&eacute;. S'il vous pla&icirc;t attendre quelque
 $lang_paid = "pay&eacute;";
 $lang_unconfirmed = "(non confirm&eacute;e)";
 $lang_confirmed = "(confirm&eacute;)";
+$lang_error = "paiement a &eacute;chou&eacute;";
+$lang_wronghash = "transaction ne correspond pas";
+$lang_received = "montant re&ccedil;u ";
+$lang_wrongamount = " ne correspond pas &agrave; des prix ";
 ?>

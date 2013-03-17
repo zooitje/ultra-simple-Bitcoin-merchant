@@ -28,4 +28,8 @@ $lang_wait = "payment is being processed. please wait a few minutes";
 $lang_paid = "paid";
 $lang_unconfirmed = "(not confirmed)";
 $lang_confirmed = "(confirmed)";
+$lang_error = "payment failed";
+$lang_wronghash = "transactions don't match";
+$lang_received = "received amount ";
+$lang_wrongamount = " doesn't match price ";
 ?>

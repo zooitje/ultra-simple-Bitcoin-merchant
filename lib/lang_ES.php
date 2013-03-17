@@ -16,9 +16,7 @@ $lang_ordertotal = "total: ";
 $lang_send = "transferir ";
 $lang_to = "para";
 $lang_linktowallet = "pagar con su billetera Bitcoin en su dispositivo"; 
-$lang_help = "Busque en la QRcode con su billetera m&oacute;vil, o<br>
-haga clic en la direcci&oacute;n a la billetera de su dispositivo a utilizar, o<br>
-copiar la direcci&oacute;n de su monedero online";
+$lang_help = "Busque en la QRcode con su billetera m&oacute;vil, o<br>haga clic en la direcci&oacute;n a la billetera de su dispositivo a utilizar, o<br>copiar la direcci&oacute;n de su monedero online";
 $lang_paymentfinished = "pago listo - haga clic para continuar";
 
 //paymentcheck.php
@@ -30,4 +28,8 @@ $lang_wait = "pago sea procesado. por favor, espere unos minutos";
 $lang_paid = "pagado";
 $lang_unconfirmed = "(sin confirmar)";
 $lang_confirmed = "(confirmado)";
+$lang_error = "pago no";
+$lang_wronghash = "transacci&oacute;n no est&aacute; de acuerdo";
+$lang_received = "importe recibido ";
+$lang_wrongamount = " no est&aacute; de acuerdo con los precios ";
 ?>

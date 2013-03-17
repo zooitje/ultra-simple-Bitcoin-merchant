@@ -28,4 +28,8 @@ $lang_wait = "betaling wordt verwerkt. enkele minuten geduld aub";
 $lang_paid = "betaald";
 $lang_unconfirmed = "(onbevestigd)";
 $lang_confirmed = "(bevestigd)";
+$lang_error = "betaling mislukt";
+$lang_wronghash = "transactie (hash) komt niet overeen";
+$lang_received = "ontvangen bedrag ";
+$lang_wrongamount = " komt niet overeen met prijs ";
 ?>

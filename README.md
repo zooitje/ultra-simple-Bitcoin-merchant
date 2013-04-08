@@ -38,7 +38,7 @@ customize
 - you can set the language
 
 donations
-- feel free to donate BTC: 15MjKbreRqiFGbf8Drh7xdPkrV3LMgi1Nw
+- feel free to donate BTC: 1NbW9pAncJs9pPF4qZ57cGbpBhwaH9DEjh
 
 disclaimer
 - this software is not fully tested except that payments arrive at mt gox if all is well ;-)
